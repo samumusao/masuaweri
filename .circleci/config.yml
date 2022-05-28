@@ -10,7 +10,7 @@ jobs:
             name: aba
             command: sudo apt update -y
         - run:
-            name: abia
+            name: abi
             command: ls
         - run:
             name: abua
