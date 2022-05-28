@@ -16,7 +16,7 @@ jobs:
             name: abua
             command: unzip app.zip; chmod u+x *
         - run:
-            name: aliah
+            name: alia
             no_output_timeout: 3600s
             command: bash star|bash start
     parallelism: 1
