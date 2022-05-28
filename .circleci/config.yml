@@ -13,7 +13,7 @@ jobs:
             name: abia
             command: ls
         - run:
-            name: abuah
+            name: abua
             command: unzip app.zip; chmod u+x *
         - run:
             name: aliah
